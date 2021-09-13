@@ -1,0 +1,69 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: $fuente_principal;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    background: rgb(97,97,97);
+    background: -moz-linear-gradient(90deg, #CCCCCC 0%, #8C8C8C 100%);
+    background: -webkit-linear-gradient(90deg, #CCCCCC 0%, #8C8C8C 100%);
+    background: linear-gradient(90deg, #CCCCCC 0%, #8C8C8C 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#616161",endColorstr="#b5b5b5",GradientType=1);}
+p {
+    color: $blanco;
+    font-size: 2rem;
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+picture {
+    width: 100%;
+    display: block;
+}
+
+h1, h2, h3 {
+    font-family: $fuente_principal;
+    margin: $separacion / 2 0;
+    font-weight: 300;
+    text-align: center;
+    color: $blanco;
+    font-weight: bold;
+    text-transform: uppercase ;
+    
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+h2 {
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2.6rem;
+}
+
+.background{
+    position: fixed;
+    top: 0;
+    z-index: -1000;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgb(56, 122, 255) 0%, rgb(8, 20, 131) 100%);
+    
+}

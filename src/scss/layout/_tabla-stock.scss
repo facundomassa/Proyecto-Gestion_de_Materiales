@@ -1,0 +1,18 @@
+.tablaStock{
+    width: 100%;
+    background-color: darkkhaki;
+    border: 1px solid black;
+    margin: 5rem 0;
+    border-collapse: collapse;
+    caption{
+        font-size: 5rem;
+        font-weight: bold;
+        background-color: gray;
+    }
+    thead{
+        background-color: red;
+    }
+    th, td{
+        border: 2px solid black
+    }
+}
