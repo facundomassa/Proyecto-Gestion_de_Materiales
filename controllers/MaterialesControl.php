@@ -6,6 +6,13 @@ use MVC\Router;
 use Model\Materiales;
 
 class MaterialesControl{
+
+    public static function materialesSueltos(Router $router){
+        $materiales = Materiales::getAll();
+        $router->render("materiales/lista-materiales", [
+            "materiales" => $materiales
+        ], false);
+    }
     
     public static function index(Router $router){
         $numPagina = $_SESSION["numPagina"] = 1;

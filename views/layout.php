@@ -9,6 +9,7 @@
     <title>Sistema Stock</title>
 </head>
 <body>
+    <?php if($layout){ ?>
     <header class="header">
         <img class="header-logo" src="/build/img/LogoBBT.jpg" alt="logoBBT" class="logo">
         <a href="/">
@@ -16,6 +17,7 @@
         </a>
         <img src="/build/img/MenuSVG.png" alt="" class="icono-menu">
     </header>
+    <?php }?>
     <div class="general">
         <?php echo $contenido; ?>
         <nav class="navegacion">
@@ -26,6 +28,7 @@
         </nav>
     </div>
     
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="/build/js/bundle.min.js"></script>
 </body>
 </html>

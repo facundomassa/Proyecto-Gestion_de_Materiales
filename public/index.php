@@ -14,5 +14,6 @@ $router->post("/", [MaterialesControl::class, "paginador"]);
 $router->get("/ingresos/total", [IngresosControl::class, "index"]);
 $router->post("/ingresos/total", [IngresosControl::class, "paginador"]);
 $router->get("/ingresos/ingresar", [IngresosControl::class, "ingresar"]);
+$router->get("/materiales/lista-materiales", [MaterialesControl::class, "materialesSueltos"]);
 
 $router->comprobarRutas();

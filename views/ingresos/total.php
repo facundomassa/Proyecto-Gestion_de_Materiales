@@ -1,5 +1,6 @@
 <main class="contenedor-principal">
     <h2>Ingresos de Materiales</h2>
+    <a class="btn-agregar" href="/ingresos/ingresar"><img src="/build/img/bxs-plus-circle.svg" alt=""></a>
         <section class="contenedor">
             <table class="tablaStock">
                 <caption>Total de Ingresos</caption>
